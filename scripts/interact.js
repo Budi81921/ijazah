@@ -4,7 +4,6 @@ async function main() {
     // Get environment variables
     const action = process.env.ACTION; // 'issue', 'verify', or 'details'
     const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
-
     const Degree = await hre.ethers.getContractFactory("Degree");
     const degree = Degree.attach(contractAddress);
 

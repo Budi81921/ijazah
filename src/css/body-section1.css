@@ -1,0 +1,122 @@
+body{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.section1{
+    width: 50%;
+}
+
+.section2{
+    width: 50%;
+}
+.navigation{
+    display: flex;
+    justify-content: flex-end; /* Meratakan elemen ke kanan secara horizontal */
+    align-items: flex-end;
+    gap: 20px;
+}
+h1{
+    text-align: center;
+    margin-top: 109px;
+    font-size: 26px;
+}
+.navigation p{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.box-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+  }
+  
+  .form1 {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  
+  label{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    font-size: 14px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #444444;
+    box-shadow: 0 0 4px rgba(102, 102, 255, 0.5);
+  }
+  
+  .btn-save {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #444444, #666666);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn-save:hover {
+    background: linear-gradient(to right, #666666, #444444);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-save:focus {
+    outline: none;
+  }
+
+  .select-dropdown {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    font-size: 14px;
+  }
+  
+  .select-dropdown:focus {
+    outline: none;
+    border-color: #444444;
+    box-shadow: 0 0 4px rgba(102, 102, 255, 0.5);
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    font-size: 14px;
+  }
+  
+  select:focus {
+    outline: none;
+    border-color: #444444;
+    box-shadow: 0 0 4px rgba(102, 102, 255, 0.5);
+  }
+  
+  /* Add custom dropdown styling for consistent appearance */
+  select option {
+    padding: 10px;
+  }

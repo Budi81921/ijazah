@@ -41,9 +41,9 @@ contract Degree {
     }
 
     // Fungsi untuk memverifikasi keberadaan sertifikat
-    function verifyCertificate(bytes32 _hash) public view returns (bool) {
-        return certificates[_hash].hash != bytes32(0);
-    }
+    // function verifyCertificate(bytes32 _hash) public view returns (bool) {
+    //     return certificates[_hash].hash != bytes32(0);
+    // }
 
     // Fungsi untuk memverifikasi keaslian detail sertifikat
     function verifyCertificateDetails(
